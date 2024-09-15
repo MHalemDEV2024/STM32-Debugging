@@ -21,7 +21,7 @@ This repository contains a complete project setup for developing and debugging a
   - `STM32F429ZITX_FLASH.ld`: Linker script defining memory layout and sections (Flash, RAM, etc.).
 
 - **startup/**
-  - `startup_stm32f429zitx.c`: ARM assembly startup file to initialize the microcontroller, set up the stack, and call the main function.
+  - `startup_stm32f429zitx.c`: ARM startup file to initialize the microcontroller, set up the stack, and call the main function.
 
 - **.gitignore**: Specifies files to be excluded from version control (e.g., build artifacts, object files).
 
@@ -33,7 +33,7 @@ This repository contains a complete project setup for developing and debugging a
 
 ## Key Features
 
-- **GDB Debugging**: Use GDB to set breakpoints, step through code, inspect registers, and debug firmware interactively.
+- **GDB Debugging**: Use GDB to set brqeakpoints, step through code, inspect registers, and debug firmware interactively.
 - **OpenOCD Integration**: Interface with STM32 microcontrollers for flashing and debugging.
 - **Linker Script**: Defines the memory layout for STM32F429.
 - **ARM Startup File**: Initializes hardware and jumps to `main()`.
