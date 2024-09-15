@@ -23,8 +23,6 @@ This repository contains a complete project setup for developing and debugging a
 - **startup/**
   - `startup_stm32f429zitx.c`: ARM assembly startup file to initialize the microcontroller, set up the stack, and call the main function.
 
-- **test/**: (Placeholder for testing code or test files).
-
 - **.gitignore**: Specifies files to be excluded from version control (e.g., build artifacts, object files).
 
 - **LICENSE**: Contains the licensing information for the project.
